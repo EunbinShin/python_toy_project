@@ -709,6 +709,6 @@ import re
 oracle_dsn = oracle.makedsn(host="localhost", port=1521, sid="orcl")
 if __name__ == '__main__':
     global conn
-    conn = oracle.connect(dsn=oracle_dsn, user='eunbin', password='123456')
+    conn = oracle.connect(dsn=oracle_dsn, user='', password='')
     start()
    
